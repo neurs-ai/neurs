@@ -1,0 +1,26 @@
+[package]
+name = "zenith"
+version = "0.1.0"
+edition = "2021"
+description = "AI Agent Framework on Solana"
+authors = ["Zenith Team"]
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "zenith"
+
+[features]
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+solana-program = "1.16"
+anchor-lang = "0.28.0"
+borsh = "0.10.3"
+thiserror = "1.0.40"
+
+[dev-dependencies]
+solana-program-test = "1.16"
+solana-sdk = "1.16"
