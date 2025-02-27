@@ -12,7 +12,7 @@ class ZenithAgent:
         self.wallet = wallet
         self.llm = OpenAI(temperature=0.7)
         self.task_chain = self._create_task_chain()
-
+ 
     def _create_task_chain(self) -> LLMChain:
         prompt = PromptTemplate(
             input_variables=["task"],
