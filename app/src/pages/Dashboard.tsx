@@ -12,6 +12,7 @@ const Dashboard: React.FC = () => {
     const fetchStats = async () => {
       if (!publicKey || !wallet) return;
 
+      
       try {
         // Initialize connection to the Zenith program
         const provider = new Provider(
