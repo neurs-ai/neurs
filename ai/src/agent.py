@@ -6,6 +6,7 @@ from anchorpy import Program, Provider, Wallet
 from langchain import LLMChain, OpenAI
 from langchain.prompts import PromptTemplate
 
+
 class ZenithAgent:
     def __init__(self, program: Program, wallet: Wallet):
         self.program = program
