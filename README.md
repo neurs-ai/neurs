@@ -5,18 +5,6 @@
     <h3>🤖 Intelligent Agents Powered by AI on Solana</h3>
 </div>
 
-<div align="center">
-    <a href="https://github.com/neurs-ai/neurs">
-        <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"/>
-    </a>
-    <a href="https://github.com/neurs-ai/neurs">
-        <img src="https://img.shields.io/github/stars/NeursAILabs/Neurs" alt="GitHub Stars"/>
-    </a>
-    <a href="https://solana.com">
-        <img src="https://img.shields.io/badge/Solana-Compatible-green" alt="Solana Compatible"/>
-    </a>
-</div>
-
 ---
 
 Neurs is a cutting-edge AI agent framework built on the Solana blockchain, enabling the creation and deployment of autonomous, intelligent agents. By combining the power of artificial intelligence with blockchain technology, Neurs provides a secure, efficient, and scalable platform for AI-driven decision making and task execution.
